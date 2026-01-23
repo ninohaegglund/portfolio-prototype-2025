@@ -5,20 +5,20 @@ import { ExternalLink, Github, ArrowRight } from 'lucide-react';
 const projects = [
   {
     id: 1,
-    title: 'Enterprise Microservices Platform',
+    title: 'Ventixe Microservices Platform',
     description: 'Scalable microservices architecture handling 10M+ daily transactions with 99.99% uptime.',
-    image: '/public/images/ventixe.png',
+    image: '/images/ventixe.png',
     category: 'Backend',
-    tags: ['ASP.NET Core', 'Azure', 'Kubernetes', 'RabbitMQ'],
+    tags: ['ASP.NET Core', 'Azure', 'Microservices', 'React'],
     outcomes: ['40% latency reduction', '99.99% uptime', '10M+ daily transactions'],
     github: '#',
     live: '#',
   },
   {
     id: 2,
-    title: 'Real-time Analytics Dashboard',
+    title: 'Project Manager MVC',
     description: 'Full-stack analytics platform with real-time data visualization and predictive insights.',
-    image: '/placeholder.svg',
+    image: '/public/images/alpha.png',
     category: 'Full Stack',
     tags: ['C#', 'SignalR', 'React', 'Azure Functions'],
     outcomes: ['Real-time updates < 100ms', '50% faster insights', '200+ concurrent users'],
@@ -96,6 +96,13 @@ const ProjectsSection = () => {
             >
               {/* Project Image */}
               <div className="relative h-48 bg-secondary overflow-hidden">
+                <img
+                  src={project.image}
+                  alt={`${project.title} preview`}
+                  className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                  onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-card/80" />
                 <div className="absolute top-4 left-4">
                   <span className="px-3 py-1 rounded-full text-xs bg-primary/20 text-primary border border-primary/30">
