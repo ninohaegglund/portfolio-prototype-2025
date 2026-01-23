@@ -1,35 +1,35 @@
-import { Code2, Cloud, Database, Settings, Container, Shield } from 'lucide-react';
+import { Code2, Cloud, Database, Settings, Container, Shield, Wrench, AppWindow } from 'lucide-react';
 
 const skillCategories = [
   {
     icon: Code2,
     title: 'Backend Development',
-    skills: ['C#', 'ASP.NET Core', 'Entity Framework Core', 'REST APIs'],
+    skills: ['C#', 'ASP.NET Core', 'Entity Framework Core', 'REST APIs', 'PHP', 'Node.js'],
   },
   {
     icon: Cloud,
-    title: 'Cloud & Azure',
-    skills: ['Azure App Service', 'Azure Functions', 'Azure DevOps', 'Azure SQL', 'Service Bus'],
+    title: 'Cloud & DevOps',
+    skills: ['Azure App Service', 'Azure Functions', 'CI/CD (Azure DevOps)', 'Azure SQL', 'Service Bus'],
   },
   {
-    icon: Container,
-    title: 'DevOps & Containers',
-    skills: ['Docker', 'CI/CD Pipelines'],
+    icon: AppWindow,
+    title: 'Frontend',
+    skills: ['Javascript', 'React', 'TypeScript', 'HTML/CSS', 'Tailwind CSS'],
   },
   {
-    icon: Database,
-    title: 'Data & Storage',
-    skills: ['SQL Server', 'PostgreSQL', 'Redis', 'MongoDB', 'Elasticsearch', 'Blob Storage'],
+    icon: Wrench,
+    title: 'Tools & CMS',
+    skills: ['Git / GitHub', 'Umbraco', 'Optimizely', 'Visual Studio', 'Word Press',  'Postman'],
   },
   {
     icon: Settings,
     title: 'Architecture',
-    skills: ['Microservices', 'SOLID', 'CQRS', 'Domain-Driven Design', 'Clean Architecture'],
+    skills: ['Microservices', 'SOLID', 'DRY', 'KISS', 'Clean Architecture', 'Repository pattern'],
   },
   {
     icon: Shield,
     title: 'Security & Auth',
-    skills: ['OAuth 2.0', 'JWT', 'Azure AD', 'Identity Server', 'RBAC', 'API Security'],
+    skills: ['JWT', 'ASP.NET Identity', 'RBAC', 'Token-based authentication'],
   },
 ];
 

@@ -38,14 +38,14 @@ const projects = [
   },
   {
     id: 4,
-    title: 'E-commerce API Gateway',
-    description: 'High-performance API gateway with advanced caching and rate limiting capabilities.',
-    image: '/placeholder.svg',
+    title: 'Daily check in',
+    description: 'A web application for tracking mental and physical well-being over time. The frontend is implemented in React and communicates with a RESTful API built in ASP.NET Core.',
+    image: '/public/images/daily-check.png',
     category: 'Backend',
-    tags: ['ASP.NET Core', 'Redis', 'YARP', 'EF Core'],
+    tags: ['ASP.NET Core', 'React', 'C#', 'EF Core'],
     outcomes: ['3x throughput increase', 'Sub-10ms response time', '99.95% cache hit rate'],
-    github: '#',
-    live: '#',
+    github: 'https://github.com/ninohaegglund/daily-checkin',
+    live: 'https://daily-checkin-app.netlify.app/',
   },
 ];
 
