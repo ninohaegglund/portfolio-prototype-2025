@@ -25,7 +25,7 @@ const HeroSection = () => {
 
           {/* Tech Stack */}
           <div className="flex flex-wrap justify-center gap-3 mb-10 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-            {['ASP.NET Core', 'C#', 'Azure', 'EF Core', 'Docker', 'Kubernetes'].map((tech) => (
+            {['ASP.NET Core', 'C#', 'Azure', 'EF Core','React', ].map((tech) => (
               <span
                 key={tech}
                 className="px-4 py-1.5 rounded-full text-sm bg-secondary text-secondary-foreground border border-border hover:border-primary/50 transition-colors cursor-default"
@@ -50,7 +50,7 @@ const HeroSection = () => {
           {/* Social Links */}
           <div className="flex justify-center gap-4 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
             {[
-              { icon: Github, href: '#', label: 'GitHub' },
+              { icon: Github, href: 'https://github.com/ninohaegglund', label: 'GitHub' },
               { icon: Linkedin, href: '#', label: 'LinkedIn' },
               { icon: Mail, href: '#contact', label: 'Email' },
             ].map(({ icon: Icon, href, label }) => (

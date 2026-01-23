@@ -66,7 +66,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="font-medium">nino@example.com</p>
+                  <p className="font-medium">ninomh99@gmail.com</p>
                 </div>
               </div>
 
@@ -76,7 +76,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="font-medium">Stockholm, Sweden</p>
+                  <p className="font-medium">Uppsala, Sweden</p>
                 </div>
               </div>
             </div>
@@ -93,7 +93,7 @@ const ContactSection = () => {
                   <Linkedin size={20} className="text-muted-foreground" />
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/ninohaegglund"
                   className="w-12 h-12 rounded-xl glass flex items-center justify-center hover:bg-secondary/70 transition-all duration-200 hover:scale-110"
                   aria-label="GitHub"
                 >

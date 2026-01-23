@@ -7,7 +7,7 @@ const projects = [
     id: 1,
     title: 'Enterprise Microservices Platform',
     description: 'Scalable microservices architecture handling 10M+ daily transactions with 99.99% uptime.',
-    image: '/placeholder.svg',
+    image: '/public/images/ventixe.png',
     category: 'Backend',
     tags: ['ASP.NET Core', 'Azure', 'Kubernetes', 'RabbitMQ'],
     outcomes: ['40% latency reduction', '99.99% uptime', '10M+ daily transactions'],

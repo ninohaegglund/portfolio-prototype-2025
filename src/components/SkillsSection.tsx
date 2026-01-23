@@ -4,17 +4,17 @@ const skillCategories = [
   {
     icon: Code2,
     title: 'Backend Development',
-    skills: ['C#', 'ASP.NET Core', 'Entity Framework Core', 'REST APIs', 'gRPC', 'SignalR'],
+    skills: ['C#', 'ASP.NET Core', 'Entity Framework Core', 'REST APIs'],
   },
   {
     icon: Cloud,
     title: 'Cloud & Azure',
-    skills: ['Azure App Service', 'Azure Functions', 'Azure DevOps', 'Azure SQL', 'Cosmos DB', 'Service Bus'],
+    skills: ['Azure App Service', 'Azure Functions', 'Azure DevOps', 'Azure SQL', 'Service Bus'],
   },
   {
     icon: Container,
     title: 'DevOps & Containers',
-    skills: ['Docker', 'Kubernetes', 'Helm', 'CI/CD Pipelines', 'Terraform', 'GitHub Actions'],
+    skills: ['Docker', 'CI/CD Pipelines'],
   },
   {
     icon: Database,
@@ -24,7 +24,7 @@ const skillCategories = [
   {
     icon: Settings,
     title: 'Architecture',
-    skills: ['Microservices', 'Event-Driven', 'CQRS', 'Domain-Driven Design', 'Clean Architecture'],
+    skills: ['Microservices', 'SOLID', 'CQRS', 'Domain-Driven Design', 'Clean Architecture'],
   },
   {
     icon: Shield,
