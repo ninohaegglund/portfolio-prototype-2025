@@ -60,7 +60,7 @@ const HeroSection = () => {
           <div className="flex justify-center gap-4 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
             {[
               { icon: Github, href: 'https://github.com/ninohaegglund', label: 'GitHub' },
-              { icon: Linkedin, href: '#', label: 'LinkedIn' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/nino-h%C3%A4gglund-441740307/', label: 'LinkedIn' },
               { icon: Mail, href: '#contact', label: 'Email' },
             ].map(({ icon: Icon, href, label }) => (
               <a

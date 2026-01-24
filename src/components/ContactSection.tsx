@@ -86,7 +86,7 @@ const ContactSection = () => {
               <p className="text-sm text-muted-foreground mb-4">Connect on social</p>
               <div className="flex gap-3">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/nino-h%C3%A4gglund-441740307"
                   className="w-12 h-12 rounded-xl glass flex items-center justify-center hover:bg-secondary/70 transition-all duration-200 hover:scale-110"
                   aria-label="LinkedIn"
                 >

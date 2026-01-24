@@ -11,13 +11,13 @@ const Footer = () => {
           <div className="flex flex-col items-center md:items-start gap-2">
             <span className="font-display text-xl font-bold text-gradient">NH</span>
             <p className="text-sm text-muted-foreground flex items-center gap-1">
-              © {currentYear} Nino Hägglund. Built with <Heart size={12} className="text-primary" /> and code.
+              © {currentYear} Nino Hägglund
             </p>
           </div>
 
           {/* Navigation */}
           <nav className="flex flex-wrap justify-center gap-6">
-            {['About', 'Projects', 'Skills', 'Experience', 'Blog', 'Contact'].map((item) => (
+            {[ 'Projects', 'Skills', 'Experience', 'Blog', 'Contact'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
@@ -31,8 +31,8 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex gap-4">
             {[
-              { icon: Github, href: '#', label: 'GitHub' },
-              { icon: Linkedin, href: '#', label: 'LinkedIn' },
+              { icon: Github, href: 'https://github.com/ninohaegglund', label: 'GitHub' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/nino-h%C3%A4gglund-441740307', label: 'LinkedIn' },
               { icon: Mail, href: '#contact', label: 'Email' },
             ].map(({ icon: Icon, href, label }) => (
               <a
