@@ -4,13 +4,22 @@ import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 pb-24">
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8 animate-fade-in">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
             <span className="text-sm text-muted-foreground">Available for new opportunities</span>
           </div>
+
+          {/* Profile Image */}
+          <img
+            src="/images/Profile3.jpg"
+            alt="Profile photo of Nino Hägglund"
+            className="mx-auto mb-6 w-48 h-48 md:w-56 md:h-56 object-cover shadow-lg animate-fade-in-up rounded-full"
+            style={{ animationDelay: '0.05s' }}
+            loading="lazy"
+          />
 
           {/* Main Heading */}
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
@@ -20,7 +29,7 @@ const HeroSection = () => {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-4 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            .NET Developer & Cloud Architect
+            .NET Developer
           </p>
 
           {/* Tech Stack */}

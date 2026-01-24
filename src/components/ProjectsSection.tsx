@@ -9,7 +9,7 @@ const projects = [
     description: 'Scalable microservices architecture handling 10M+ daily transactions with 99.99% uptime.',
     image: '/images/ventixe.png',
     category: 'Backend',
-    tags: ['ASP.NET Core', 'Azure', 'Microservices', 'React'],
+    tags: ['ASP.NET Core', 'Azure', 'Microservices', 'React', "Azure Service Bus"],
     outcomes: ['40% latency reduction', '99.99% uptime', '10M+ daily transactions'],
     github: '#',
     live: '#',
@@ -27,10 +27,10 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Cloud Migration Framework',
-    description: 'Automated migration toolkit reducing cloud migration time by 60% for enterprise clients.',
-    image: '/placeholder.svg',
-    category: 'Cloud',
+    title: 'WPF Product Catalogue',
+    description: 'A WPF app to manage products with full CRUD functionality, search, and save/load to file',
+    image: '/public/images/wpf.png',
+    category: 'Backend',
     tags: ['Azure', 'Terraform', 'Docker', 'CI/CD'],
     outcomes: ['60% faster migrations', '30% cost reduction', '100+ successful deployments'],
     github: '#',
@@ -41,7 +41,7 @@ const projects = [
     title: 'Daily check in',
     description: 'A web application for tracking mental and physical well-being over time. The frontend is implemented in React and communicates with a RESTful API built in ASP.NET Core.',
     image: '/public/images/daily-check.png',
-    category: 'Backend',
+    category: 'Frontend',
     tags: ['ASP.NET Core', 'React', 'C#', 'EF Core'],
     outcomes: ['3x throughput increase', 'Sub-10ms response time', '99.95% cache hit rate'],
     github: 'https://github.com/ninohaegglund/daily-checkin',
@@ -49,7 +49,7 @@ const projects = [
   },
 ];
 
-const categories = ['All', 'Backend', 'Full Stack', 'Cloud'];
+const categories = ['All', 'Backend', 'Full Stack', 'Frontend'];
 
 const ProjectsSection = () => {
   const [activeCategory, setActiveCategory] = useState('All');
@@ -105,7 +105,7 @@ const ProjectsSection = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-card/80" />
                 <div className="absolute top-4 left-4">
-                  <span className="px-3 py-1 rounded-full text-xs bg-primary/20 text-primary border border-primary/30">
+                  <span className="px-3 py-1 rounded-full text-xs bg-primary/20 text-primary/100 border border-primary/30">
                     {project.category}
                   </span>
                 </div>
